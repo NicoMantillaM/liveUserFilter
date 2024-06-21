@@ -1,17 +1,19 @@
-export const users = async (info) => {
+export const users = async (filterUserComparation) => {
+    // console.log(filterUserComparation);
     let plantilla = "";
 
-    for (let i = 0; i < info.length; i++) {
-        plantilla += `
+    filterUserComparation.forEach(element => {
+        
+        plantilla += /*html*/`
         <div class="users"> 
-                <img src="${info[i].avatar}" alt="">
+                <img src="${element.avatar}" alt="">
                     <div class="name">
-                        <h5>${info[i].name_full}</h5>
-                        <span>${info[i].description}</span>
+                        <h5>${element.name_full}</h5>
+                        <span>${element.description}</span>
                     </div>
             </div>
             <hr> 
         `;
-    }
+    })
     return plantilla;
 };

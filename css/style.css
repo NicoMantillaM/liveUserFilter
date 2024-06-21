@@ -47,11 +47,11 @@
     flex-direction: column;
     /* background-color: green; */
     width: 100%;
-    height: 100%;
+    height: 70vh;
     overflow-y: scroll;
 }
 .main img {
-    background-color: green;
+    /* background-color: green; */
     width: 10vh;
     height: 10vh;
     border-radius: 100%;

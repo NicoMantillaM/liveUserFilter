@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Bold";
+    src: url("../storage/font/avenir_ff/AvenirLTStd-Black.otf");
+}
+@font-face {
+    font-family: "Medium";
+    src: url("../storage/font/avenir_ff/AvenirLTStd-Book.otf");
+}
+@font-face {
+    font-family: "SemiMedium";
+    src: url("../storage/font/avenir_ff/AvenirLTStd-Roman.otf");
+}

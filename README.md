@@ -23,13 +23,13 @@ Live User Filter es una aplicación web que permite a los usuarios buscar y filt
 1. Clona el repositorio a tu máquina local.
 
    ```
-   git clone https://github.com/tu-usuario/live-user-filter.git
+   git clone https://github.com/tu-usuario/live-user-filter.git](https://github.com/NicoMantillaM/liveUserFilter.git
    ```
 
 2. Navega al directorio del proyecto.
 
    ```
-   cd live-user-filter
+   cd liveUserFilter
    ```
 
 ## Uso
